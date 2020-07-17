@@ -1,0 +1,5 @@
+.ToolBarWrapper {
+    display: grid;
+    grid-template-columns: auto;
+    height: 20vh;
+}
