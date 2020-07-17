@@ -1,23 +1,39 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project provides a responsive web app with top bar, navigation links, main content area and bottom bar.  It also comes with additional goodies like icons and links for social media, placeholders for contact details (address, e-mail, phone numbers) etc.  
 
-## Available Scripts
+## Using the template
 
-In the project directory, you can run:
+To create an app with this template, you can run:
 
-### `npm start`
+### `npx create-react-app [app-name] --template cra-template-layout-with-navigation`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This will create a new react app with the name as app-name.  It will install all required dependencies also ("react","react-dom",      "react-router", "react-router-dom" and "react-scripts") <br />
+Once you install, run  `npm start` to view it in the browser.  This will open the app at [http://localhost:3000/](http://localhost:3000/).
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Features of the template
 
-### `npm test`
+Following are the features of this React Web App template.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Core Application Structure
 
-### `npm run build`
+The created Web app will have a Tool Bar at the top, a main content section in the middle and a bottom bar.
+
+#### Tool Bar
+The Tool bar contains place holders for a Logo, Name of the WebApp, tagline for the Web App, e-mail, phone numbers and Social Media links (icons) for Facebook, Twitter, YouTube and Instagram.
+
+The Tool bar also contains a menu section with place holders for 5 menu links.  If you need more menu items, you will need to customize the \src\components\UI\Layout\ToolBarWrapper\Toolbar\Navigation\NavigationItems\NavigationItems.module.css for increasing the number of grid items.  Also, you will need to update the \src\helpers\menuHelper and \src\helpers\navHelper files appropriately.
+
+#### Main Content
+The Main content section is rendered through the components in the \src\components\Content folder.  Each of the component corresponds to the corresponding menu item router link, as can be seen in the \src\helpers\navHelper file.  Essentially it renders an empty div and you are free to add any content you want to in each of these components.
+
+#### Bottom Bar
+The Bottom Bar comes with four sections - Contact Us section (for Physical Address), Email/Call Section, Social Media Section and Other Links (place holder for any other links that you may have in your application - for example a Terms & Conditions page etc).
+The Bottom Bar also has a place holder for Copy Right statement.
+
+### Responsive out of the box!!
+
+The application renders fully responsive.  On the Mobile version, it will forego the TopBar contact details and social media icons and Menu display.  Instead a hamburger menu icon is provided and upon touching it, the menu opens up for navigation.
+
+## `npm run build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -27,42 +43,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Provide your valuable Feedback
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+I am only 12 years old and this is my first React Application Template.  So please be kind in your feedback.  You can send all your feedback to my e-mail - Surya.Kasibhatla@gmail.com! Thank you!
