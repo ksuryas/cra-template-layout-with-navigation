@@ -36,7 +36,7 @@ The Bottom Bar also has a place holder for the Copyright statement.
 
 The application renders fully responsive.  On the Mobile version, it will forego the TopBar contact details and social media icons and Menu display.  Instead, a hamburger menu icon is provided and upon touching it, the menu opens up for navigation.
 
-### Build the app for production: `npm run build`
+## Build the app for production: `npm run build`
 After you have modified the placeholders and main content, it's time to build the app for production to the build folder! By running this command, it correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.
