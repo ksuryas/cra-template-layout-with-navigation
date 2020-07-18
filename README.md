@@ -44,7 +44,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://create-react-app.dev/docs/deployment/) for more information.
 
-## Here's how the website looks!
+## Here's how the website looks! 
 
 ![Screen Shot](./template/public/images/ScreenShot.jpg?raw=true "ScreenShot")
 
