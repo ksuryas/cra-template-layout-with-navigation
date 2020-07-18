@@ -46,7 +46,7 @@ See the section about [deployment](https://create-react-app.dev/docs/deployment/
 
 ## Here's how the website looks! 
 
-![Screen Shot](./template/public/images/ScreenShot.jpg?raw=true "ScreenShot")
+![Screen Shot](./template/public/images/ScreenShot.jpg?raw=true "Screen Shot")
 
 ## Provide your Valuable Feedback
 
