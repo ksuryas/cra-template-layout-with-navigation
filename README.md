@@ -42,7 +42,7 @@ After you have modified the placeholders and main content, it's time to build th
 The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
-See the section about [deployment]((https://create-react-app.dev/docs/deployment/)) for more information.
+See the section about [deployment](https://create-react-app.dev/docs/deployment/) for more information.
 
 ## Here's how the app looks!
 
