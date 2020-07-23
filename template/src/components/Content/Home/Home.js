@@ -10,6 +10,7 @@ class About extends Component {
 
         <br />
         <br />
+        
         Some Content
        </div>
     );

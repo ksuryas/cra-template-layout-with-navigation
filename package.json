@@ -1,13 +1,13 @@
 {
   "name": "cra-template-layout-with-navigation",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "main": "template.json",
   "keywords": [
     "react",
     "create-react-app",
     "template"
   ],
-  "description": "Base template for a responsive web app with Top Bar, Main Content and Bottom Bar",
+  "description": "Base template for a responsive web app with Top Bar, Main Content and Bottom Bar with Themes!",
   "repository": {
     "type": "git",
     "url": "https://github.com/ksuryas/cra-template-layout-with-navigation",

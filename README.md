@@ -1,5 +1,11 @@
 # Overview
-This template provides a responsive web app with the top bar, navigation links, main content area, and bottom bar.  It also comes with additional goodies like icons and links for social media, placeholders for contact details (address, e-mail, phone numbers), etc.  
+
+This template provides a responsive web app with the top bar, navigation links, main content area, and bottom bar.  It also comes with additional goodies like icons and links for social media, placeholders for contact details (address, e-mail, phone numbers), etc.  It also comes with the Dark Mode option.
+
+## Important Changes from V1.0.2 to V1.1.0
+
+* Dark Mode Option
+* More customization options - new helper
 
 ## Using the template
 
@@ -7,7 +13,7 @@ To create an app with this template, you can run:
 
 ### `npx create-react-app [app-name] --template cra-template-layout-with-navigation`
 
-This will create a new react app with the name as app-name.  It will install all required dependencies also ("react","react-dom","react-router","react-router-dom", and "react-scripts")
+This will create a new react app with the name as app-name.  It will install all required dependencies also ("react","react-dom","react-router","react-router-dom", and "react-scripts").
 
 Once you install, run  `npm start` to view it in the browser.  This will open the app at [http://localhost:3000/](http://localhost:3000/).
 
@@ -20,7 +26,7 @@ Following are the features of this React Web App template.
 The created Web app will have a Tool Bar at the top, a main content section in the middle, and a bottom bar.
 
 #### Tool Bar
-The Toolbar contains place holders for a Logo, Name of the WebApp, a tagline for the Web App, e-mail, phone numbers, and Social Media links (icons) for Facebook, Twitter, YouTube, and Instagram.
+The Toolbar contains place holders for a Logo, Name of the WebApp, a tagline for the WebApp, e-mail, phone numbers, and Social Media links (icons) for Facebook, Twitter, YouTube, and Instagram. Please change the Name of the WebApp and tagline for the WebApp by customizing the \src\helpers\websiteDetailsConfig file. The Toolbar also contains Dark Mode icon and that will turn the WebApp's theme to Dark Mode.
 
 The Toolbar also contains a menu section with place holders for 5 menu links.  If you need more menu items, you will need to customize the \src\components\UI\Layout\ToolBarWrapper\Toolbar\Navigation\NavigationItems\
 NavigationItems.module.css for increasing the number of grid items.  Also, you will need to update the \src\helpers\menuHelper and \src\helpers\navHelper files appropriately.
@@ -44,9 +50,20 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://create-react-app.dev/docs/deployment/) for more information.
 
-## Here's how the website looks! 
+## Here's how the website looks! (Updated)
 
-![Screen Shot](./template/public/images/ScreenShot.jpg?raw=true "Screen Shot")
+![Screen Shot Light Mode](./template/public/images/ScreenShotDef.png?raw=true "Screen Shot Light Mode")
+<figcaption>Desktop View (Light Mode/Default)</figcaption>
+
+![Screen Shot Dark Mode](./template/public/images/ScreenShotDark.png?raw=true "Screen Shot Dark Mode")
+<figcaption>Desktop View (Dark Mode)</figcaption>
+<hr>
+
+![Screen Shot Light Mode Phone](./template/public/images/ScreenShotDefMob.png?raw=true "Screen Shot Light Mode Mobile")
+<figcaption>Mobile View (Light Mode/Default)</figcaption>
+
+![Screen Shot Dark Mode Phone](./template/public/images/ScreenShotDarkMob.png?raw=true "Screen Shot Dark Mode Mobile")
+<figcaption>Desktop View (Dark Mode)</figcaption>
 
 ## Provide your Valuable Feedback
 

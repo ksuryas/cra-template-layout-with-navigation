@@ -1,7 +1,14 @@
 .DesktopContactBar {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     justify-content: center;
+}
+
+.DarkModeIcon {
+    margin-top: 3vh;
+    margin-right: 5vw;
+    color: rgb(65, 221, 221);
+    cursor: pointer;
 }
 
 .MobileOnly {
@@ -16,17 +23,20 @@
     .DesktopContactBar {
         font-size: 0.9vw;
         display: grid;
-        grid-template-columns: 15vw 40vw auto;
-        grid-column-gap: 5vw;
+        grid-template-columns: 15vw 40vw auto auto;
+        grid-column-gap: 3vw;
         background-color: rgb(39, 3, 168);
         color: white;      
         height: 7vw;
-    } 
-
-    /* .MobileOnly {
-        display: flex;
-    } */
+    }
     
+    .DarkModeIcon {
+        margin-top: 3vh;
+        margin-right: 0;
+        color: rgb(65, 221, 221);
+        cursor: pointer;
+    }
+
     .AlignBothWays {
         margin: auto;
         text-align: center;

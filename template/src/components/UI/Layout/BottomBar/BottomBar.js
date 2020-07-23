@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './BottomBar.module.css';
 import ContactUs from '../ContactUs/ContactUs';
 import commonClasses from '../../../../helpers/commonClasses.module.css';
+import websiteDetailsConfig from '../../../../helpers/websiteDetailsConfig';
 
 const BottomBar = () => {
     return (
@@ -22,7 +23,8 @@ const BottomBar = () => {
               </p>
             </div>
 
-            {/* <div className={classes.AboutDeveloper}>
+            {/* You can uncomment the following code:
+             <div className={classes.AboutDeveloper}>
               <span className={commonClasses.Headings}>Website Developer</span>
               <br />
               Name : Change this
@@ -39,7 +41,7 @@ const BottomBar = () => {
           </div>
 
           <div className={classes.CopyRight}>
-            Copyright © Year, &nbsp;&nbsp;Website Name,&nbsp;&nbsp;All Rights Reserved.
+            Copyright © Year, &nbsp;{websiteDetailsConfig.copyrightName},&nbsp;All Rights Reserved.
           </div>
           
         </div>
