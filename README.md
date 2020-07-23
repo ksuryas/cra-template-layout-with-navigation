@@ -53,17 +53,22 @@ See the section about [deployment](https://create-react-app.dev/docs/deployment/
 ## Here's how the website looks! (Updated)
 
 ![Screen Shot Light Mode](./template/public/images/ScreenShotDef.png?raw=true "Screen Shot Light Mode")
-<figcaption>Desktop View (Light Mode/Default)</figcaption>
+<figcaption style="text-align: center;">Desktop View (Light Mode/Default)</figcaption>
+
+<br>
 
 ![Screen Shot Dark Mode](./template/public/images/ScreenShotDark.png?raw=true "Screen Shot Dark Mode")
-<figcaption>Desktop View (Dark Mode)</figcaption>
+<figcaption style="text-align: center;">Desktop View (Dark Mode)</figcaption>
+
 <hr>
 
 ![Screen Shot Light Mode Phone](./template/public/images/ScreenShotDefMob.png?raw=true "Screen Shot Light Mode Mobile")
-<figcaption>Mobile View (Light Mode/Default)</figcaption>
+<figcaption style="text-align: center;">Mobile View (Light Mode/Default)</figcaption>
+
+<br>
 
 ![Screen Shot Dark Mode Phone](./template/public/images/ScreenShotDarkMob.png?raw=true "Screen Shot Dark Mode Mobile")
-<figcaption>Desktop View (Dark Mode)</figcaption>
+<figcaption>Mobile View (Dark Mode)</figcaption>
 
 ## Provide your Valuable Feedback
 
