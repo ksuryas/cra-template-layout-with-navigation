@@ -2,7 +2,7 @@
 
 This template provides a responsive web app with the top bar, navigation links, main content area, and bottom bar.  It also comes with additional goodies like icons and links for social media, placeholders for contact details (address, e-mail, phone numbers), etc.  It also comes with the Dark Mode option.
 
-## Important Changes from V1.0.2 to V1.1.0
+## Important Changes from V1.0.2 to V1.1.1
 
 * Dark Mode Option
 * More customization options - new helper
@@ -53,7 +53,7 @@ See the section about [deployment](https://create-react-app.dev/docs/deployment/
 ## Here's how the website looks! (Updated)
 
 ![Screen Shot Light Mode](./template/public/images/ScreenShotDef.png?raw=true "Screen Shot Light Mode")
-<figcaption style="text-align: center;">Desktop View (Light Mode/Default)</figcaption>
+<figcaption>Desktop View (Light Mode/Default)</figcaption>
 
 <br>
 
